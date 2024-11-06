@@ -1,0 +1,21 @@
+{
+  "name": "data-structure-and-algorithms-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node --transpile-only src/index.ts",
+    "watch": "nodemon --watch src --exec \"ts-node src/index.ts\"",
+    "test": "ts-node src/test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}

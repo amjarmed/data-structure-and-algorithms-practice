@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2020", // Choose a modern JavaScript version
+    "module": "commonjs", // Required for Node.js compatibility
+    "strict": true, // Enable strict mode
+    "esModuleInterop": true, // Allow default imports from commonjs modules
+    "skipLibCheck": true, // Skip checking .d.ts files for faster compilation
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true // Prevent TypeScript from outputting compiled files
+  },
+  "include": ["src/**/*.ts"], // Only include files in the src folder
+  "exclude": ["node_modules"]
+}
