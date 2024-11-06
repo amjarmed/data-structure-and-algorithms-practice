@@ -1,7 +1,13 @@
-console.log('Hello, World!');
+import { findDuplicates } from './problems/problem-1';
 
-const add = (a: number, b: number): number => {
-  return a + b;
-};
+console.log(
+  '======================= TYPE SCRIPT DSA ===========================',
+);
+let arr: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let result = findDuplicates(arr);
 
-console.log(add(1, 5));
+console.log(result);
+
+console.log(
+  '===================================================================',
+);
